@@ -2,7 +2,10 @@
 	background-color: #E0DBD1;
 	color: #35230F;
 	}
-	
+
+	html {
+	font: 1.2rem "Consolas", sans-serif;
+	}	
 	a:special {
 		color: #35230F;
 	}
@@ -10,7 +13,7 @@
 		color: #35230F;
 	}
 	a:visited {
-		color: #35230F;
+		color: #1a450a;
 	}
 
 	nav {
