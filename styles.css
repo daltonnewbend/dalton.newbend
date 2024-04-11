@@ -1,0 +1,18 @@
+	html {
+	background-color: #E0DBD1;
+	color: #35230F;
+	}
+	
+	a:special {
+		color: #35230F;
+	}
+	a:link {
+		color: #35230F;
+	}
+	a:visited {
+		color: #35230F;
+	}
+
+	nav {
+	font-size: 20px;
+	}
