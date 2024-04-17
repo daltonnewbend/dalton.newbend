@@ -6,7 +6,7 @@ html {
 
 html {
 	font: 1.2rem "Consolas", monospace;
-	}	
+	}
 	a:special {
 		color: #35230F;
 	}
@@ -14,14 +14,14 @@ html {
 		color: #35230F;
 	}
 	a:visited {
-		color: #1a450a;
+		color: #35230F;
 	}
 
 	nav{
 	font-size: 30px;
 	background color: #1a450a;
 	}
-	
+
 	nav ul {
 	width: 100%;
 	height: 20px;
@@ -73,6 +73,6 @@ html {
 }
 
 .styled:active {
-  	color: #35230F; 
+  	color: #35230F;
  	 background-color: #E0DBD1;
 }
