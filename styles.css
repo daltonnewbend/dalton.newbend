@@ -1,78 +1,98 @@
-
-html {
-	background-color: #E0DBD1;
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #E0DBD1;
+}
+a:special {
 	color: #35230F;
 	}
-
-html {
-	font: 1.2rem "Consolas", monospace;
+a:link {
+	color: #35230F;
 	}
-	a:special {
-		color: #35230F;
-	}
-	a:link {
-		color: #35230F;
-	}
-	a:visited {
-		color: #35230F;
+a:visited {
+    color: #35230F;
 	}
 
-	nav{
-	font-size: 30px;
-	background color: #1a450a;
-	}
-
-	nav ul {
-	width: 100%;
-	height: 20px;
-	list-style: none;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	}
-
-	nav a{
-	height: 100%
-	padding: 0 30px;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	}
-
- * {
-	margin: 0in;
-	padding: 0.125in;
-
-.wrapper{
-	width: 100%;
 }
-
+nav{
+    background: #E0DBD1;
+    height: 80px;
+    width 100%;
+}
+label.logo{
+    color: #35230F;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: normal;
+    text-align: right;
+    padding-right: 30px;
+}
+nav ul li a{
+    color: #35230F
+    font-size: 18px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: -30px;
+    height: 100vh;
+    width: 105%;
+    z-index: 999;
+    background-color: #E0DBD1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    fill: #35230F;
+    size: 25px;
+    display: none;
+}
+.menu-exit{
+    fill:#35230F;
+}
 .img-banner{
-	width: 100%
+    width: 100%;
+    paddinng: 20px 400px 20px;
 }
-
-.styled{
-  	border: 1;
-	border-color: #35230F;
-  	line-height: 2.75;
- 	padding: 0 20px;
-  	font-size: 1.2rem;
-  	text-align: center;
-  	color:#35230F;
- 	border-radius: 50px;
-  	background-color: #E0DBD1;
-	transition: 0.25s;
+.img-info{
+    width: 100%;
+    text-align: right;
+    padding: 20px 15px 20px 120px;
 }
-
-.styled:hover {
-  	color: #E0DBD1;
-	border: 1;
- 	background-color: #1a450a;
-	border-color: #1a450a
-
-}
-
-.styled:active {
-  	color: #35230F;
- 	 background-color: #E0DBD1;
-}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+@media(max-width 400px){
+    .sidebar{
+        width: 100%;
+    }
