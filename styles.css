@@ -12,14 +12,12 @@ body {
 }
 a:special {
 	color: #35230F;
-	}
+}
 a:link {
 	color: #35230F;
-	}
+}
 a:visited {
     color: #35230F;
-	}
-
 }
 nav{
     background: #E0DBD1;
@@ -35,7 +33,7 @@ label.logo{
 }
 nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 nav ul li{
     display: inline-block;
@@ -52,12 +50,12 @@ nav ul li a{
 .sidebar{
     position: fixed;
     top: 0;
-    right: -30px;
+    right: 0px;
     height: 100vh;
     width: 105%;
     z-index: 999;
     background-color: #E0DBD1;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -77,7 +75,10 @@ nav ul li a{
     fill:#35230F;
 }
 .img-banner{
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     paddinng: 20px 400px 20px;
 }
 .img-info{
@@ -85,8 +86,7 @@ nav ul li a{
     text-align: right;
     padding: 20px 15px 20px 120px;
 }
-
-.styled{
+.buttons{
   	border: 1;
 	border-color: #35230F;
   	line-height: 2.75;
@@ -98,27 +98,24 @@ nav ul li a{
   	background-color: #E0DBD1;
 	transition: 0.25s;
 }
-
-.styled:hover {
+.buttons:hover {
   	color: #E0DBD1;
 	border: 1;
  	background-color: #1a450a;
 	border-color: #1a450a
-
 }
-
-.styled:active {
+.buttons:active {
   	color: #35230F;
- 	 background-color: #E0DBD1;
+    background-color: #E0DBD1;
 }
-@media(max-width: 800px){
+@media(max-width: 850px){
     .hideOnMobile{
         display: none;
-    }
+}
     .menu-button{
         display: block;
-    }
+}
 @media(max-width 400px){
     .sidebar{
         width: 100%;
-    }
+}
