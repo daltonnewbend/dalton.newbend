@@ -85,6 +85,32 @@ nav ul li a{
     text-align: right;
     padding: 20px 15px 20px 120px;
 }
+
+.styled{
+  	border: 1;
+	border-color: #35230F;
+  	line-height: 2.75;
+ 	padding: 0 20px;
+  	font-size: 1.2rem;
+  	text-align: center;
+  	color:#35230F;
+ 	border-radius: 50px;
+  	background-color: #E0DBD1;
+	transition: 0.25s;
+}
+
+.styled:hover {
+  	color: #E0DBD1;
+	border: 1;
+ 	background-color: #1a450a;
+	border-color: #1a450a
+
+}
+
+.styled:active {
+  	color: #35230F;
+ 	 background-color: #E0DBD1;
+}
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
