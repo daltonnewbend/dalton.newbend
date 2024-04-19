@@ -5,10 +5,15 @@
     list-style: none;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Courior-Prime';
+    src: url(Courior_Prime);
+}
 body {
     min-height: 100vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courior-Prime', Courier, monospace;
     background-color: #E0DBD1;
+    font-size: 20px;
 }
 a:special {
 	color: #35230F;
@@ -39,7 +44,7 @@ nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-    font-weight: normal;
+    font-weight: bold;
     text-align: right;
     padding-right: 30px;
 }
@@ -79,12 +84,18 @@ nav ul li a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    paddinng: 20px 400px 20px;
 }
 .img-info{
     width: 100%;
     text-align: right;
     padding: 20px 15px 20px 120px;
+}
+.container{
+    width: 100%;
+    column-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 20px 20px;
 }
 .buttons{
   	border: 1;
