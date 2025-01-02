@@ -138,3 +138,37 @@ nav ul li a{
     background-color: var(--clr-cream);
 }
 
+/* SMALLER SCREEN */
+@media(max-width: 1050px){
+    .hideOnMobile{
+        display: none;
+}
+    .menu-button{
+        display: block;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    color: var(--clr-brown);
+    background-color: var(--clr-cream);
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+/* MOBILE DEVICE*/
+@media(max-width 600px){
+    .sidebar{
+        width: 100%;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    color: var(--clr-brown);
+    background-color: var(--clr-cream);
+    min-height: 100vh;
+    font-size: 20px;
+}
