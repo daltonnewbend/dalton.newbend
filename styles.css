@@ -5,15 +5,15 @@
     --clr-green: #1a450a;
 }
 * {
-    padding: 5px;
+    padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 body {
-    margin: 2.5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
     font-family: monospace;
@@ -24,7 +24,7 @@ body {
 }
 
 body section {
-    margin: 2.5px;
+    margin: 0;
     padding: 60px;
 }
 .img{
@@ -178,8 +178,8 @@ nav ul li a{
         display: block;
 }
 body {
-    margin: 2.5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
     color: var(--clr-brown);
@@ -189,7 +189,7 @@ body {
 }
 
 body section {
-    margin: 2.5px;
+    margin: 0;
     padding: 30px;
 }
 
@@ -204,8 +204,8 @@ body section {
         width: 100%;
 }
 body {
-    margin: 2.5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
     color: var(--clr-brown);
@@ -215,6 +215,6 @@ body {
 }
 
 body section {
-    margin: 2.5px;
+    margin: 0;
     padding: 5px;
 }
