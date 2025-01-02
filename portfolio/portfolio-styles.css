@@ -1,9 +1,9 @@
-/* BASE STYLES for DALTON.NEWBEND.ART */
+/* BASE STYLES for DALTON.NEWBEND.ART*/
 :root {
     --clr-brown: #35230f;
     --clr-cream: #e0dbd1;
     --clr-green: #1a450a;
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -31,21 +31,21 @@ body section {
     width: 50px;
 }
 a:special {
-    color: var(--clr-brown);
+	color: #35230F;
 }
 a:link {
-    color: var(--clr-brown);
+	color: #35230F;
 }
 a:visited {
-    color: var(--clr-brown);
+    color: #35230F;
 }
 nav{
-    background: var(--clr-cream);
+    background: #E0DBD1;
     height: 80px;
     width 100%;
 }
 label.logo{
-    color: var(--clr-brown);
+    color: #35230F;
     font-size: 25px;
     line-height: 80px;
     padding: 0 30px;
@@ -64,17 +64,17 @@ nav ul li{
     padding-right: 30px;
 }
 nav ul li a{
-    color: var(--clr-brown)
+    color: #35230F
     font-size: 18px;
 }
 .sidebar{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0px;
     height: 100vh;
     width: 105%;
     z-index: 999;
-    background-color: var(--clr-cream);
+    background-color: #e0dbd1;
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -87,101 +87,80 @@ nav ul li a{
     width: 100%;
 }
 .menu-button{
-    fill: var(--clr-brown);
+    fill: #35230F;
     size: 25px;
     display: none;
 }
 .menu-exit{
-    fill: var(--clr-brown);
+    fill:#35230F;
 }
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
 .img-banner{
     width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/* ABOUT */\
 
-.wrapper{
-	display: flex;
-	flex-flow: row wrap;
-	text-align: right:
-}
-.wrapper > * {
-	padding: 10px;
-	margin: 10px;
-	flex: 1 100%;
-	border-radius: 10px;
-}
-.bio{
-	width: 100%;
-	text-align: right;
-	padding-left: 750px;
-	padding-right: 60px;
-}
 .container{
     display: flex;
-    width: 60%;
-    align-items: center;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
-
-/* BUTTONS */
-
 .buttons{
   	border: 1;
-  	font-family: monospace;
-	border-color: #35230F;
+	border-color: var(--clr-brown);
   	line-height: 2.75;
  	padding: 0 20px;
   	font-size: 1.2rem;
   	text-align: center;
-  	color:#35230F;
+  	color: var(--clr-brown);
  	border-radius: 50px;
-  	background-color: #E0DBD1;
+  	background-color: var(--clr-cream);
 	transition: 0.25s;
 }
-.button-box-a{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	padding-right: 25px;
-	padding-bottom: 15px;
-
-}
-.button-box-b{
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	padding-right: 25px;
-	padding-bottom: 15px;
-
-}
 .buttons:hover {
-  	color: #E0DBD1;
+    color: var(--clr-brown);
 	border: 1;
- 	background-color: #1a450a;
-	border-color: #1a450a
+ 	background-color: var(--clr-green);
+	border-color: var(--clr-green)
 }
 .buttons:active {
-  	color: #35230F;
-   	background-color: #E0DBD1;
+  	color: var(--clr-brown);
+    background-color: var(--clr-cream);
 }
 
 /* SMALLER SCREEN */
-@media(max-width: 1050px){
+@media(max-width: 1060px){
     .hideOnMobile{
         display: none;
 }
+
     .menu-button{
         display: block;
 }
+
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
 body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
+    font-family: "Courior-Prime", Courier, monospace;
     color: var(--clr-brown);
     background-color: var(--clr-cream);
     min-height: 100vh;
@@ -190,12 +169,13 @@ body {
 
 body section {
     margin: 0;
-    padding: 30px;
+    padding: 0;
 }
 
-.bio{
+.img-info{
     width: 100%;
-    text-align: left;
+    text-align: right;
+    padding: 100px 40px 50px 150px;
 }
 
 /* MOBILE DEVICE*/
@@ -204,11 +184,19 @@ body section {
         width: 100%;
 }
 
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
 body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
+    font-family: "Courior-Prime", Courier, monospace;
     color: var(--clr-brown);
     background-color: var(--clr-cream);
     min-height: 100vh;
