@@ -114,9 +114,10 @@ nav ul li a{
 	border-radius: 10px;
 }
 .bio{
-	width: 100%;
-	padding-left: 50px;
-	padding-right: 60px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
     display: flex;
@@ -193,10 +194,10 @@ body section {
 }
 
 .bio{
-    width: 100%;
-    text-align: left;
-    padding-left: 50px;
-    padding-right: 60px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* MOBILE DEVICE*/
@@ -219,3 +220,11 @@ body section {
     margin: 0;
     padding: 5px;
 }
+
+.bio{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
