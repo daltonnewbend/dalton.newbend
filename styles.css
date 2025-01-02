@@ -5,7 +5,7 @@
     --clr-green: #1a450a;
 }
 * {
-    padding: 0;
+    padding: 5px;
     margin: 0;
     text-decoration: none;
     list-style: none;
@@ -13,7 +13,7 @@
 }
 body {
     margin: 2.5px;
-    padding: 0;
+    padding: 5px;
     line-height: 1.6;
     word-spacing: 1.4px;
     font-family: monospace;
@@ -179,7 +179,7 @@ nav ul li a{
 }
 body {
     margin: 2.5px;
-    padding: 0;
+    padding: 5px;
     line-height: 1.6;
     word-spacing: 1.4px;
     color: var(--clr-brown);
@@ -205,7 +205,7 @@ body section {
 }
 body {
     margin: 2.5px;
-    padding: 0;
+    padding: 5px;
     line-height: 1.6;
     word-spacing: 1.4px;
     color: var(--clr-brown);
