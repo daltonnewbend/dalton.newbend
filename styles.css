@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0;
+    margin: 2.5px;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
@@ -24,7 +24,7 @@ body {
 }
 
 body section {
-    margin: 0;
+    margin: 2.5px;
     padding: 60px;
 }
 .img{
@@ -178,7 +178,7 @@ nav ul li a{
         display: block;
 }
 body {
-    margin: 0;
+    margin: 2.5px;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
@@ -189,7 +189,7 @@ body {
 }
 
 body section {
-    margin: 0;
+    margin: 2.5px;
     padding: 30px;
 }
 
@@ -204,7 +204,7 @@ body section {
         width: 100%;
 }
 body {
-    margin: 0;
+    margin: 2.5px;
     padding: 0;
     line-height: 1.6;
     word-spacing: 1.4px;
@@ -215,6 +215,6 @@ body {
 }
 
 body section {
-    margin: 0;
+    margin: 2.5px;
     padding: 5px;
 }
